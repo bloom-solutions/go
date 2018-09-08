@@ -19,3 +19,7 @@ standing with rate limiting system:
 
 In addition, a `Retry-After` header will be set when the current client is being
 throttled.
+
+## Customizing the limit
+
+Set the environment variable `PER_HOUR_RATE_LIMIT` or pass the limit you want when starting horizon using the `--per-hour-rate-limit` switch.
